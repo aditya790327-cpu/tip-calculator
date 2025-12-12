@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Tip Calculator</h2>
+
+    <label>Bill Amount:</label>
+    <input id="bill" type="number" placeholder="Enter bill amount">
+
+    <label>Tip %:</label>
+    <input id="tip" type="number" placeholder="Enter tip percent">
+
+    <label>Number of People:</label>
+    <input id="people" type="number" value="1">
+
+    <button onclick="calculateTip()">Calculate</button>
+
+    <div class="result-box">
+        <h3>Tip per Person: <span id="tipPerPerson">0</span></h3>
+        <h3>Total per Person: <span id="totalPerPerson">0</span></h3>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
 
